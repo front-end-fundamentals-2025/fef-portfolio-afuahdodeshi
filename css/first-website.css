@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+
+
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Luckiest Guy';
+ scroll-behavior:smooth;
+}
+
+/* morayo's portfolio */
+h1{
+    text-align: center;
+    font-size: 110px;
+    color: white;
+    stroke: black;
+    font-weight: 100;
+}
+/* links itself*/
+a{
+    font-size: 43px;
+    text-decoration:none;
+    color: aliceblue;
+    text-align: center;
+
+}
+/* links group*/
+nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 11cm;
+    padding-left: 22vw;
+    text-align: center;
+   
+}
+/* for the image*/
+.background{
+    padding:20%;
+    background-image: url(/img/P1030476.JPG);
+    background-size:cover; 
+    background-position: center top; 
+    background-repeat: no-repeat;
+}
+/* for the image itself, a class*/
+.image{
+    width: 50%;
+}
+
+main{
+    background-color: rgb(238, 136, 11);
+}
+
+/*about  section */
+
+#about{
+    /* background-image:url(/img/Oshodi.jpeg);
+    /* background-blend-mode:darken;
+    background-color: rgb(240, 159, 61); */
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding-top: 3vw;
+    text-align: center;
+}
+
+#about aside{
+    padding-top: 3vw;
+    font-size: 20px;
+}
+h2{
+    font-weight: 200;
+    font-size: 80px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+/* images in about */
+
+#about img{
+    width: 20%;
+}
