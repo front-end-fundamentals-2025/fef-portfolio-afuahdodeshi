@@ -88,3 +88,13 @@ h4{
 #about img{
     width: 20%;
 }
+
+#about .morayo{
+display: flex;
+justify-content: center;
+}
+
+.morayo img{
+    padding-top: 10vh;
+    margin-right: 10vh;
+}
