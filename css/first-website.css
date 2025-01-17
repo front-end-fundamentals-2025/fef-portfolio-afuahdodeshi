@@ -47,16 +47,13 @@ nav{
     width: 50%;
 }
 
-main{
+body{
     background-color: rgb(238, 136, 11);
 }
 
 /*about  section */
 
 #about{
-    /* background-image:url(/img/Oshodi.jpeg);
-    /* background-blend-mode:darken;
-    background-color: rgb(240, 159, 61); */
     background-size:cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -74,27 +71,66 @@ h2{
 }
 
 h3{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
+    margin-bottom: 60px;
 }
 
 h4{
-    font-size: 30px;
+    font-size: 80px;
     font-weight: 200;
 }
 
 /* images in about */
 
-#about img{
-    width: 20%;
+
+.one .two .three .four .five .six .seven .eight .nine {
+    display: inline-block;
+    margin: 10px; 
+    width: 100px;
+}
+.orisun img:hover {
+    transform: scale(1.03);
+    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+    filter: brightness(80%);
 }
 
-#about .morayo{
-display: flex;
-justify-content: center;
+.ui img{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    
 }
 
-.morayo img{
-    padding-top: 10vh;
+.ui img:hover {
+    transform: scale(1.03);
+    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+    filter: brightness(80%);
+}
+
+.toarrangeimg{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.magazine img{
+    width: 90%;
     margin-right: 10vh;
+}
+
+.magazine img:hover {
+    transform: scale(1.03);
+    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+    filter: brightness(80%);
+}
+
+footer{
+    margin-top: 40px;
+   font-size: 80px;
+   text-align: center;
 }
