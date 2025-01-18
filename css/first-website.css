@@ -18,7 +18,7 @@ h1{
 }
 /* links itself*/
 a{
-    font-size: 43px;
+    font-size: 0.75vw;
     text-decoration:none;
     color: aliceblue;
     text-align: center;
@@ -37,7 +37,7 @@ nav{
 /* for the image*/
 .background{
     padding:20%;
-    background-image: url(P1030476.JPG);
+    background-image: url(/P1030476.JPG);
     background-size:cover; 
     background-position: center top; 
     background-repeat: no-repeat;
