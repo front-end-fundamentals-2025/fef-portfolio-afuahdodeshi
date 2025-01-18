@@ -37,7 +37,7 @@ nav{
 /* for the image*/
 .background{
     padding:20%;
-    background-image: url(img/P1030476.JPG);
+    background-image: url(/img/P1030476.JPG);
     background-size:cover; 
     background-position: center top; 
     background-repeat: no-repeat;
