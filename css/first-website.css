@@ -1,188 +1,389 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap");
 
-
-*{
- margin: 0;
- padding: 0;
- font-family: 'Luckiest Guy';
- scroll-behavior:smooth;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Luckiest Guy";
+  scroll-behavior: smooth;
 }
 
 /* morayo's portfolio */
-h1{
-    text-align: center;
-    font-size: 110px;
-    color: white;
-    stroke: black;
-    font-weight: 100;
+h1 {
+  text-align: center;
+  font-size: 110px;
+  color: white;
+  stroke: black;
+  font-weight: 100;
+  text-align: center;
 }
 /* links itself*/
-a{
-    font-size: 0.75vw;
-    text-decoration:none;
-    color: aliceblue;
-    text-align: center;
-
+a {
+  font-size: 0.79vw;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
 }
 /* links group*/
-nav{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    width: 11cm;
-    padding-left: 22vw;
-    text-align: center;
-   
+nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 3%;
+  
+  text-align: center;
 }
 /* for the image*/
-.background{
-    padding:20%;
-    background-image: url('../img/P1030476.JPG');
-    background-size:cover; 
-    background-position: center top; 
-    background-repeat: no-repeat;
-}
-/* for the image itself, a class*/
-.image{
-    width: 50%;
+.background {
+  padding: 20%;
+  background-image: url("../img/P1030476.JPG");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
-body{
-    background-color: rgb(238, 136, 11);
+/* for the image itself, a class*/
+.image {
+  width: 90%;
+}
+
+body {
+  background-color: rgb(238, 136, 11);
 }
 
 /*about  section */
 
-#about{
-    background-size:cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    padding-top: 3vw;
-    text-align: center;
+#about h1,
+h2,
+h3,
+h4 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 3vw;
+  text-align: center;
 }
 
-#about aside{
-    padding-top: 3vw;
-    font-size: 20px;
-}
-h2{
-    font-weight: 200;
-    font-size: 80px;
+#about aside {
+  padding-top: 3vw;
+  font-size: 20px;
 }
 
-h3{
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: 60px;
+h2 {
+  font-weight: 200;
+  font-size: 80px;
 }
 
-h4{
-    font-size: 80px;
-    font-weight: 200;
-    text-align: center;
+h3 {
+  font-size: 90px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+h4 {
+  font-size: 80px;
+  font-weight: 200;
+  margin-left: 6.9vw;
+}
+h4.different {
+  font-size: 80px;
+  font-weight: 200;
+  margin-left: 1vw;
 }
 
 /* images in about */
 
-
-.one .two .three .four .five .six .seven .eight .nine {
-    display: inline-block;
+/* .one .two .three .four .five .six .seven .eight .nine {
     align-items: center;
-    width: 50%;
+    width: 90%;
+} */
+
+.orisun img {
+  width: 60%;
+  margin-left: 8.7vw;
 }
+
 .orisun img:hover {
-    transform: scale(1.03);
-    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
-    filter: brightness(80%);
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
 }
 
-.ui img{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 120%;
-    
+.art img {
+  width: 60%;
+  margin-left: 9vw;
 }
 
-.ui img:hover {
-    transform: scale(1.03);
-    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
-    filter: brightness(80%);
+.art img:hover {
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
 }
 
-.toarrangeimg{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
+.toarrangeimg {
+  gap: 60px;
 }
 
-.magazine img{
-    width: 50%;
-   align-items: center;
+.magazine img {
+  width: 70%;
+  margin-left: 6vw;
 }
 
 .magazine img:hover {
-    transform: scale(1.03);
-    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
-    filter: brightness(80%);
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
 }
 
-.joje img{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    
+.joje img {
+  width: 60%;
+  /* margin-left: 2vw; */
 }
 
-.posters img:hover {
-    transform: scale(1.03);
-    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
-    filter: brightness(80%);
-}
-
-.posters img{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    
+.joje img:hover {
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
 }
 
 .posters img:hover {
-    transform: scale(1.03);
-    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
-    filter: brightness(80%);
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
+}
+
+.posters img {
+  width: 20%;
+}
+
+.posters img:hover {
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
 }
 
 .video-edits img:hover {
-    transform: scale(1.03);
-    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
-    filter: brightness(80%);
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
 }
 
-.video-edits img{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+.video-edits img {
+  width: 10%;
+}
+
+.video-edits img:hover {
+  transform: scale(1.03);
+  /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
+  filter: brightness(80%);
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.everything {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* @media (max-width: 414px) {
+  h1 {
+    font-size: 8%; 
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 60px;
+  }
+
+  a {
+    font-size: 1vw; 
+  }
+}
+
+@media (max-width: 414px) {
+  .background {
+    padding: 40%;
+    background-size: cover;
+    background-position: center;
+  }
+} */
+
+@media (max-width: 894px){
+  .everything {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     align-items: center;
-    width: 10%;
+  }
+
+  .background {
+    padding: 0%;
+    background-image: url("../img/P1030476.JPG");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 150%;
+  }
+
+  .joje{
+    margin-left: 15%;
+    width: 90%;
+  }
+
+ nav a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 120%;
+    text-align: center;
+    /* align-items: center; */
+    padding-left: 10%;
     
-}
+  }
+    h3{
+      font-size: 1rem;
+      text-align: center;
+      padding-left: 30%;
+      display: grid;
+      align-content: center;
+    }
 
-.video-edits img:hover {
-    transform: scale(1.03);
-    /* https://chatgpt.com/share/678a8dbc-ed88-8004-92b4-0c0a3e3d86fb (to make the image darker as i hover */
-    filter: brightness(80%);
-}
+    h4{
+      font-size: 2.3rem;
+      text-align: center;
+      padding-left: 20%;
+    }
 
-footer{
-    margin-top: 40px;
-   font-size: 80px;
-   text-align: center;
-}
+    h1{
+      font-size: 2.3rem;
+      display: grid;
+      text-align: center;
+      padding-top: 50%;
+    }
+
+    h2{
+      display: grid;
+      align-content: center;
+      font-size: 2.3rem;
+      text-align: center;
+      padding-left: 30%;
+    }
+
+    h4.different  {
+      font-size: 2.3rem;
+      text-align: center;
+      padding-left: 25%;
+    }
+
+    footer p{
+      font-size: 1.5rem;
+      margin-left: 30%
+    }
+
+  
+  .orisun img,
+  .art img,
+  .magazine img,
+  .joje img
+   {
+    width: 80%; 
+    padding-left: 20%;
+  }
+  }
+@media (max-width: 1094px){
+  .everything {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .background {
+    padding: 0%;
+    background-image: url("../img/P1030476.JPG");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 150%;
+  }
+
+  .joje{
+    margin-left: 15%;
+    width: 90%;
+  }
+
+ nav a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 120%;
+    text-align: center;
+    /* align-items: center; */
+    padding-left: 10%;
+    
+  }
+    h3{
+      font-size: 1rem;
+      text-align: center;
+      padding-left: 30%;
+      display: grid;
+      align-content: center;
+    }
+
+    h4{
+      font-size: 2.3rem;
+      text-align: center;
+      padding-left: 20%;
+    }
+
+    h1{
+      font-size: 2.3rem;
+      display: grid;
+      text-align: center;
+      padding-top: 50%;
+    }
+
+    h2{
+      display: grid;
+      align-content: center;
+      font-size: 2.3rem;
+      text-align: center;
+      padding-left: 30%;
+    }
+
+    h4.different  {
+      font-size: 2.3rem;
+      text-align: center;
+      padding-left: 25%;
+    }
+
+    footer p{
+      font-size: 1.5rem;
+      margin-left: 30%
+    }
+
+  
+  .orisun img,
+  .art img,
+  .magazine img,
+  .joje img
+   {
+    width: 80%; 
+    padding-left: 20%;
+  }
+  }
+
+/* @media(max-width : 430px){
+
+} */
