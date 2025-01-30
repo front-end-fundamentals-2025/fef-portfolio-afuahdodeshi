@@ -219,7 +219,168 @@ footer {
   }
 } */
 
-@media (max-width: 894px){
+/* Media query for screen sizes between 820px and 1280px */
+@media (min-width: 820px) and (max-width: 1280px) {
+  .everything {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+  }
+
+  .background {
+    background-image: url("../img/P1030476.JPG");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .joje img {
+    width: 80%;
+  }
+
+  nav a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 10%;
+  }
+
+  h3 {
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 30%;
+    display: grid;
+    align-content: center;
+  }
+
+  h4 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-left: 20%;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    display: grid;
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  h2 {
+    display: grid;
+    align-content: center;
+    font-size: 2.3rem;
+    text-align: center;
+    padding-left: 30%;
+  }
+
+  h4.different {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-left: 25%;
+  }
+
+  footer p {
+    font-size: 1.5rem;
+    margin-left: 30%;
+  }
+
+  .orisun img,
+  .art img,
+  .magazine img,
+  .joje img {
+    width: 80%;
+    padding-left: 20%;
+  }
+}
+
+/* Media query for screen sizes between 344px and 820px */
+@media (max-width: 820px)  and (max-width: 1280px){
+  .everything {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .background {
+    padding: 0%;
+    background-image: url("../img/P1030476.JPG");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 160vh;
+    width: 150%;
+  }
+
+  .joje img {
+    width: 80%;
+  }
+
+  nav a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 120%;
+    text-align: center;
+    padding-left: 10%;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 30%;
+    display: grid;
+    align-content: center;
+    margin-left: 15vw;
+  }
+
+  h4 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: 15vw;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    display: grid;
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  h2 {
+    display: grid;
+    align-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 15vw;
+  }
+
+  h4.different {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: 15vw;
+  }
+
+  footer p {
+    font-size: 1.5rem;
+    margin-left: 30%;
+  }
+
+  .orisun img,
+  .art img,
+  .magazine img,
+  .joje img {
+    width: 90%;
+    padding-left: 20%;
+  }
+}
+
+/* Media query for screen sizes below 344px */
+@media (max-width: 344px) {
   .everything {
     display: grid;
     grid-template-columns: 1fr;
@@ -237,152 +398,64 @@ footer {
     width: 150%;
   }
 
-  .joje{
-    margin-left: 15%;
-    width: 90%;
+  .joje img {
+    width: 80%;
   }
 
- nav a{
+  nav a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 120%;
     text-align: center;
-    /* align-items: center; */
     padding-left: 10%;
-    
-  }
-    h3{
-      font-size: 1rem;
-      text-align: center;
-      padding-left: 30%;
-      display: grid;
-      align-content: center;
-    }
-
-    h4{
-      font-size: 2.3rem;
-      text-align: center;
-      padding-left: 20%;
-    }
-
-    h1{
-      font-size: 2.3rem;
-      display: grid;
-      text-align: center;
-      padding-top: 50%;
-    }
-
-    h2{
-      display: grid;
-      align-content: center;
-      font-size: 2.3rem;
-      text-align: center;
-      padding-left: 30%;
-    }
-
-    h4.different  {
-      font-size: 2.3rem;
-      text-align: center;
-      padding-left: 25%;
-    }
-
-    footer p{
-      font-size: 1.5rem;
-      margin-left: 30%
-    }
-
-  
-  .orisun img,
-  .art img,
-  .magazine img,
-  .joje img
-   {
-    width: 80%; 
-    padding-left: 20%;
-  }
-  }
-@media (max-width: 1094px){
-  .everything {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
   }
 
-  .background {
-    padding: 0%;
-    background-image: url("../img/P1030476.JPG");
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 150%;
-  }
-
-  .joje{
-    margin-left: 15%;
-    width: 90%;
-  }
-
- nav a{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 120%;
+  h3 {
+    font-size: 0.7rem;
     text-align: center;
-    /* align-items: center; */
-    padding-left: 10%;
-    
   }
-    h3{
-      font-size: 1rem;
-      text-align: center;
-      padding-left: 30%;
-      display: grid;
-      align-content: center;
-    }
 
-    h4{
-      font-size: 2.3rem;
-      text-align: center;
-      padding-left: 20%;
-    }
+  h4 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 15vw;
+  }
 
-    h1{
-      font-size: 2.3rem;
-      display: grid;
-      text-align: center;
-      padding-top: 50%;
-    }
+  h1 {
+    font-size: 2.3rem;
+    display: grid;
+    text-align: center;
+    padding-top: 50%;
+  }
 
-    h2{
-      display: grid;
-      align-content: center;
-      font-size: 2.3rem;
-      text-align: center;
-      padding-left: 30%;
-    }
+  h2 {
+    display: grid;
+    align-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 15vw;
+  }
 
-    h4.different  {
-      font-size: 2.3rem;
-      text-align: center;
-      padding-left: 25%;
-    }
+  h4.different {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 15vw;
+  }
 
-    footer p{
-      font-size: 1.5rem;
-      margin-left: 30%
-    }
+  footer p {
+    font-size: 0.6rem;
+    margin-left: 30%;
+  }
 
-  
   .orisun img,
   .art img,
   .magazine img,
-  .joje img
-   {
-    width: 80%; 
+  .joje img {
+    width: 90%;
     padding-left: 20%;
   }
-  }
+}
+
 
 /* @media(max-width : 430px){
 
