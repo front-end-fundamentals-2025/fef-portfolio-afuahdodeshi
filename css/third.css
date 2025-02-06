@@ -53,3 +53,40 @@ h4 {
   font-weight: 500;
   color: black;
 }
+
+/* js part */
+#effect{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(25, 74, 5, 0.252);
+  justify-content: center;
+  align-items: center;
+}
+#effectimage img{
+ max-width: 90%;
+ max-height: 80vh;
+  box-shadow: rgba(25, 74, 5, 0.252);
+
+}
+#closeeffect{
+  position: absolute;
+  position: fixed;
+  top: 15px;
+  left: 30px;
+  font-size: 50px;
+  color: bisque;
+  cursor: pointer;
+}
+
+.jseffect{
+  cursor: pointer;
+}
+
+.jseffect:hover{
+  cursor: pointer;
+  filter: brightness(80%);
+}
